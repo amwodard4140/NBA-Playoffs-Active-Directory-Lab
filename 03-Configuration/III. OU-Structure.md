@@ -12,13 +12,15 @@ Built by hand in **Active Directory Users and Computers** before any automation 
 
 Right-click **nba.local → New → Organizational Unit** → name: `NBA`. Leave **"Protect container from accidental deletion"** checked.
 
-That checkbox isn't just a UI lock — it sets an explicit **Deny ACE** for the Delete permission on the object's security descriptor. Visible directly in ADUC: enable **View → Advanced Features**, then check the OU's **Security** tab.
+<img width="1920" height="1080" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/7daa5f23-a90d-4d25-a705-f585e8249077" />
 
-📸 *Screenshot: `06-Screenshots/Configuration/07-New-OU-Dialog.png`*
 
 ## Step 3 — Create the two Conference OUs
 
 Right-click **NBA → New → Organizational Unit**, twice: `Eastern Conference`, `Western Conference`.
+
+<img width="1920" height="1080" alt="Screenshot (191)" src="https://github.com/user-attachments/assets/8381bd58-bd35-4201-82f0-a738579a3c23" />
+
 
 ## Step 4 — Create the 16 team OUs
 
@@ -29,6 +31,9 @@ Under each Conference OU, one OU per team:
 **Western Conference:** Oklahoma City Thunder, San Antonio Spurs, Denver Nuggets, Los Angeles Lakers, Houston Rockets, Minnesota Timberwolves, Portland Trail Blazers, Phoenix Suns
 
 Exact spelling matters here — these names need to character-match the `Team` column in the roster CSV used in [Automation](../04-Automation/I.%20Roster-Data.md). A typo creates a second, differently-named OU instead of throwing an error.
+
+<img width="1920" height="1080" alt="Screenshot (193)" src="https://github.com/user-attachments/assets/78f12b0c-3836-45e7-af05-45c497d233cd" />
+
 
 ## Step 5 — Verify the tree
 
@@ -43,6 +48,6 @@ nba.local
 
 18 OUs total (1 + 2 + 16).
 
-📸 *Screenshot: `06-Screenshots/Configuration/08-Full-OU-Tree.png` — this is the most important screenshot in the whole repo. It proves the entire OU design in one image.*
+<img width="1920" height="1080" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/cd81588d-82c1-4dfb-9445-ce279ef92efa" />
 
-📸 *Screenshot (optional): `06-Screenshots/Configuration/09-OU-Security-Tab-Deny-Delete.png` — an OU's Security tab showing the Deny Delete ACE.*
+<img width="1920" height="1080" alt="Screenshot (195)" src="https://github.com/user-attachments/assets/d731be27-f9b2-4eb6-b1fb-fa8740c2a3cd" />
