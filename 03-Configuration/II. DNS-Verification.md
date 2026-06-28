@@ -12,7 +12,8 @@ DNS gets installed automatically during domain promotion, but it's worth confirm
 - An NS (Name Server) record
 - An A record for the DC itself, pointing at its own internal IP (`192.168.10.1`)
 
-📸 *Screenshot: `06-Screenshots/Configuration/05-DNS-Manager-Forward-Zone.png`*
+<img width="1920" height="1080" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/b51af606-a5f9-423c-8d1e-626d940251e0" />
+
 
 ## Step 2 — Confirm resolution from the command line
 
@@ -22,11 +23,13 @@ nslookup nba.local
 
 Should return the DC's internal IP. If this fails, nothing downstream — domain join, Kerberos, group policy — will work either, so it's worth fixing here before moving on.
 
-📸 *Screenshot: `06-Screenshots/Configuration/06-nslookup-Output.png`*
+<img width="1920" height="1080" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/d9ddc322-af47-4553-8e9c-4a15188f3609" />
+
 
 ## Step 3 — Confirm the DC's own DNS client settings
 
-```powershell
+```powershell<img width="1920" height="1080" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/102b0e81-3d90-4066-abf6-5a6a2be05560" />
+
 Get-DnsClientServerAddress
 ```
 
