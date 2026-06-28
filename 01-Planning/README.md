@@ -30,4 +30,4 @@ The NBA theme isn't the point of the project — it's just a more interesting da
 3. [Automation](../04-Automation/README.md) — roster data and the PowerShell provisioning script
 4. [Testing & Troubleshooting](../05-Testing-And-Troubleshooting/README.md) — domain join, login testing, and what went wrong along the way
 
-📸 *Screenshot for this section: a simple architecture diagram of the DC + client VM + two-NIC network layout, saved to `06-Screenshots/Environment-Setup/00-Lab-Architecture.png` and referenced from there.*
+![Network Architecture](./06-Screenshots/Environment-Setup/00-Lab-Architecture.svg)
