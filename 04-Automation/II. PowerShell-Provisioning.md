@@ -33,7 +33,8 @@ Then for real:
 .\Build-NBAPlayoffsAD.ps1 -DomainDN "DC=nba,DC=local"
 ```
 
-📸 *Screenshot: `06-Screenshots/Automation/01-WhatIf-Preview.png`*
+<img width="1920" height="1080" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/1a2c7a80-3f06-4318-bb2e-adffbfcc1416" />
+
 
 ## What a successful run looks like
 
@@ -47,18 +48,17 @@ Then for real:
   Default password  : ChangeMe!2026  (change at next logon enforced)
   ```
 
-📸 *Screenshot: `06-Screenshots/Automation/02-Script-Run-Summary.png`*
+<img width="1920" height="1080" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/a42d3e71-3847-437d-9b56-62bd80035b15" />
+
 
 ## Verifying in ADUC
 
-Refresh ADUC (F5) and drill into a team OU — e.g. `NBA → Eastern Conference → New York Knicks` should show 15 user objects.
+Refresh ADUC (F5) and drill into a team OU — e.g. `NBA → Eastern Conference → Denver Nuggets` should show 15 user objects.
 
-📸 *Screenshot: `06-Screenshots/Automation/03-Populated-Team-OU.png`*
+<img width="1920" height="1080" alt="Screenshot (161)" src="https://github.com/user-attachments/assets/3d76190a-e138-426d-ba87-0a52deb89549" />
 
 Double-click a user to confirm basic attributes (name, logon name) landed correctly.
 
-📸 *Screenshot: `06-Screenshots/Automation/04-User-Properties-Dialog.png`*
+<img width="1920" height="1080" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/c7c02871-6c05-4dbb-9f4f-3c544696caf3" />
 
-## Idempotency
-
-Re-running the script after it's already succeeded should produce 230× `"Skipping existing user"` and zero new creates — confirming it's safe to run more than once without duplicating or erroring out.
+<img width="1920" height="1080" alt="Screenshot (198)" src="https://github.com/user-attachments/assets/f30b3a7a-f4f2-400c-a688-26c3e0e16b09" />
