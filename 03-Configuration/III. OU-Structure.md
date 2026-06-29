@@ -12,8 +12,7 @@ Built by hand in **Active Directory Users and Computers** before any automation 
 
 Right-click **nba.local → New → Organizational Unit** → name: `NBA`. Leave **"Protect container from accidental deletion"** checked.
 
-<img width="1920" height="1080" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/7daa5f23-a90d-4d25-a705-f585e8249077" />
-
+<img width="1920" height="1080" alt="Screenshot (196)" src="https://github.com/user-attachments/assets/5629cded-4385-43c8-9982-eee644b77443" />
 
 ## Step 3 — Create the two Conference OUs
 
