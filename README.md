@@ -78,3 +78,6 @@ The most useful part of this project wasn't the automation — it was two proble
 - Conditional Access and MFA policy simulation
 - A reverse lookup DNS zone and DHCP scope for the internal network
 - OU-scoped Group Policy instead of relying solely on domain-wide defaults
+
+<img width="1875" height="1333" alt="00-Lab-Architecture" src="https://github.com/user-attachments/assets/7080cd8a-ceb3-42c9-b3f4-4da0348074cd" />
+
