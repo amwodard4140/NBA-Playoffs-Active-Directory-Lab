@@ -14,7 +14,9 @@ PowerShell equivalent:
 Add-Computer -DomainName "nba.local" -Credential (Get-Credential) -Restart
 ```
 
-📸 *Screenshot: `06-Screenshots/Testing-And-Troubleshooting/01-Domain-Join-Dialog.png`*
+<img width="1920" height="1080" alt="Screenshot (175)" src="https://github.com/user-attachments/assets/da4c70ba-b993-49ce-a4db-26418f482b7d" />
+
+<img width="1920" height="1080" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/51c4cca9-9477-4f07-bb7d-4d483cc87d50" />
 
 ## Step 2 — Verify the join
 
