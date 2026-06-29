@@ -36,6 +36,10 @@ Get-ADComputer -Filter * | Select Name        # the client should now be listed
 
 At the login screen: `NBA\<logonname>` with the default password (`ChangeMe!2026`). This should immediately prompt **"You must change your password before signing in"** — confirming `ChangePasswordAtLogon` is working as configured.
 
-📸 *Screenshot: `06-Screenshots/Testing-And-Troubleshooting/03-Forced-Password-Change-Prompt.png`*
+<img width="1920" height="1080" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/8e889090-2b6f-456b-a191-85a3612bdcac" />
 
-📸 *Screenshot: `06-Screenshots/Testing-And-Troubleshooting/04-Successful-Player-Login.png`*
+<img width="1920" height="1080" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/1d01703a-d76e-4f2d-bd6c-23679293a941" />
+
+<img width="1920" height="1080" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/05c58c08-5d63-4765-a630-6578ecb97c32" />
+
+<img width="1920" height="1080" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/04c15f86-d024-43e3-a76d-f403c703e97f" />
